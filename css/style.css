@@ -1,0 +1,144 @@
+@import url('https://fonts.cdnfonts.com/css/dm-sans');
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 24px;
+    height: 24px;
+}
+
+
+.headerPrincipal .titulo {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 20px;
+    padding-bottom: 4%;
+}
+
+.paginaMobile1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.paginaMobile1 .tituloPg1 {
+    font-size: 33px;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 6%;
+    margin-top: 0;
+}
+
+
+.pattren {
+    text-align: end;
+    margin-left: 75%;
+}
+
+.paginaMobile1 .textoPg1 {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #757B8A;
+    margin-bottom: 5%;
+}
+
+.emailArea {
+    background-color: #F3F4F8;
+    font-family: 'Inter', sans-serif;
+    color: #757B8A;
+    padding: 1.8em;
+    padding-left: 26px;
+    border-radius: 60px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    max-width: 100%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.startArea {
+    background-color: #243D31;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    padding: 1.8em;
+    padding-left: 26px;
+    border-radius: 60px;
+    margin-right: 12.7%;
+    margin-left: 12.7%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+    font-size: 15px;
+}
+
+.paginaMobile1 .dashboard {
+    text-align: center;
+    width: 327px;
+}
+
+.paginaMobile2 {
+    background-color: #243D31;
+    padding-top: 14%;
+}
+
+.productOverview {
+    background-color: #E7FFD8;
+    font-family: 'DM Sans', sans-serif;
+    color: #24AA4A;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-right: 59%;
+    margin-left: 10%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.paginaMobile2 .tituloPg2 {
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 5%;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.paginaMobile2 .textoPg2 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #E6E9ED;
+    margin-bottom: 5%;
+    margin-right: 12.7%;
+    margin-left: 10%;
+}
+
+.estatisticas {
+    padding-top: 1.5em;
+    color: #ffffff;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-right: 12.7%;
+    margin-left: 10%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.estatisticas .titulosEst {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.estatisticas .textoEst {
+    font-size: 14px;
+    font-weight: 500;
+}

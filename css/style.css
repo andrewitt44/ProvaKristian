@@ -1,5 +1,6 @@
 @import url('https://fonts.cdnfonts.com/css/dm-sans');
 @import url('https://fonts.cdnfonts.com/css/inter');
+@import url('https://fonts.cdnfonts.com/css/plus-jakarta-sans');
 
 * {
     margin: 0;
@@ -28,6 +29,7 @@
 .paginaMobile1 .tituloPg1 {
     font-size: 33px;
     font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
     margin-bottom: 6%;
     margin-top: 0;
     margin-left: 20px;
@@ -48,6 +50,7 @@
     margin-bottom: 5%;
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 1.6em;
 }
 
 .emailArea {
@@ -94,7 +97,7 @@
 .paginaMobile2 {
     background-color: #243D31;
     padding-top: 14%;
-    padding-bottom: 15%;
+    padding-bottom: 24%;
 }
 
 .productOverview {
@@ -132,6 +135,7 @@
     margin-bottom: 5%;
     margin-right: 12.7%;
     margin-left: 10%;
+    line-height: 1.7em;
 }
 
 .estatisticas {
@@ -157,7 +161,7 @@
 
 .paginaMobile3 .empresasPg3 {
     padding-top: 12%;
-    padding-bottom: 12%;
+    padding-bottom: 15%;
 }
 
 .paginaMobile3 .empresas1 {
@@ -168,6 +172,9 @@
     text-align: center;
 }
 
+.paginaMobile4 {
+    padding-top: 15%;
+}
 
 .paginaMobile4 .imagemPg4 {
     text-align: center;
@@ -198,11 +205,11 @@
 }
 
 .paginaMobile4 .tituloPg4 {
-    font-size: 33px;
+    font-size: 38px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 10%;
-    margin-right: 20%;
+    margin-right: 10%;
     margin-left: 7%;
     margin-top: 0;
     color: #000000;
@@ -216,6 +223,7 @@
     margin-bottom: 5%;
     margin-right: 1%;
     margin-left: 7%;
+    line-height: 1.5em;
 }
 
 .paginaMobile4 .texto2Pg4 {
@@ -226,6 +234,7 @@
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 7%;
+    line-height: 1.6em;
 }
 
 .amanzingAnalisys {
@@ -263,6 +272,7 @@
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 7%;
+    line-height: 1.6em;
 }
 
 .paginaMobile5 .imagemKcalPg5 {
@@ -316,11 +326,11 @@
 }
 
 .paginaMobile6 .tituloPg6 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
-    margin-bottom: 4%;
-    margin-right: 20%;
+    margin-bottom: 7%;
+    margin-right: 7%;
     margin-left: 7%;
     margin-top: 25%;
     color: #000000;
@@ -334,8 +344,220 @@
     margin-bottom: 5%;
     margin-right: 5%;
     margin-left: 7%;
+    line-height: 1.7em;
 }
 
 .paginaMobile6 .imagemGraficoPg6 {
     padding-top: 4%;
+}
+
+.paginaMobile7 {
+    background-color: #243D31;
+    padding-top: 22%;
+    padding-bottom: 24%;
+}
+
+.paginaMobile7 .tituloPg7 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 5%;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.paginaMobile7 .textoPg7 {
+    font-size: 16.3px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #D6D6D6;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 10%;
+    line-height: 1.7em;
+}
+
+.paginaMobile7 .imagem1Pg7 {
+    text-align: center;
+    padding-left: 2%;
+    position: relative;
+    padding-bottom: 6%;
+}
+
+.paginaMobile7 .areaDeTextoPg7 {
+    background-color: #ffffff;
+    position: absolute;
+    top: 59%;
+    left: 10%;
+    font-weight: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 10%;
+    border-radius: 12px;
+}
+
+.paginaMobile7 .imagem2Pg7 {
+    text-align: center;
+    padding-left: 2%;
+    position: relative;
+    padding-bottom: 6%;
+}
+
+.paginaMobile7 .areaDeTexto2Pg7 {
+    background-color: #ffffff;
+    position: absolute;
+    top: 59%;
+    left: 10%;
+    font-weight: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 10%;
+    border-radius: 12px;
+}
+
+.paginaMobile7 .imagem3Pg7 {
+    text-align: center;
+    padding-left: 2%;
+    position: relative;
+    
+}
+
+.paginaMobile7 .areaDeTexto3Pg7 {
+    background-color: #ffffff;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    font-weight: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 10%;
+    border-radius: 12px;
+}
+
+.paginaMobile8 .tituloPg8 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 7%;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 18%;
+    color: #000000;
+}
+
+.paginaMobile8 .textoPg8 {
+    font-size: 16.3px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #757B8A;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 7%;
+    line-height: 1.7em;
+}
+
+.paginaMobile8 .imagemPg8 {
+    text-align: center;
+}
+
+.paginaMobile8 .aspasPg8 {
+    margin-top: 1.3em;
+    margin-left: 7%;
+}
+
+.paginaMobile8 .textoBoldPg8 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #101010;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+.paginaMobile8 .nomeBoldPg8 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #101010;
+    margin-bottom: 3%;
+    margin-right: 5%;
+    margin-left: 7%;
+    margin-top: 8%;
+}
+
+.paginaMobile8 .descricaoNomePg8 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: #757B8A;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 7%;
+}
+
+.paginaMobile8 .circulosPg8 {
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.paginaMobile8 .tituloNotasPg8 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 7%;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 18%;
+    color: #000000;
+}
+
+.paginaMobile8 .textoNotasPg8 {
+    font-size: 16.3px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #757B8A;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 7%;
+    line-height: 1.7em;
+}
+
+.notas {
+    padding-top: 1.5em;
+    color: #000000;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    margin-right: 12.7%;
+    margin-left: 7%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.notas .notasAvaliacoes {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.notas .nomeAvaliador {
+    font-size: 14px;
+    font-weight: 500;
 }

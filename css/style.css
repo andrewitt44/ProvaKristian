@@ -632,3 +632,19 @@ footer .emailAddresArea .setinha {
 footer hr {
     margin: 0% 5% 0% 7%; 
 }
+
+.textoFooter {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #33353E;
+    margin: 17% 10% 0% 6%;
+}
+
+.redesFooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 30% 6% 33%;
+}

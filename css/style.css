@@ -21,9 +21,20 @@
     padding-bottom: 4%;
 }
 
+
+.headerPrincipal .textosTitulo {
+    display: none;
+}
+
+.headerPrincipal .signArea {
+    display: none;
+}
+
 .paginaMobile1 {
     text-align: center;
     background-image: url(/css/Images/wallpaperPg1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .paginaMobile1 .tituloPg1 {
@@ -43,9 +54,9 @@
 }
 
 .paginaMobile1 .textoPg1 {
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'Inter', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     color: #757B8A;
     margin-bottom: 5%;
     margin-left: 20px;
@@ -630,7 +641,12 @@ footer .emailAddresArea .setinha {
 }
 
 footer hr {
-    margin: 0% 5% 0% 7%; 
+    margin: 0% 5% 0% 7%;
+    border: solid 0.001em #E2E4EB;
+}
+
+.notas hr {
+    border: solid 0.001em #E2E4EB;
 }
 
 .textoFooter {
@@ -646,5 +662,90 @@ footer hr {
 .redesFooter {
     display: flex;
     justify-content: space-between;
-    margin: 10% 30% 6% 33%;
+    margin: 10% 30% 0% 33%;
+    padding-bottom: 7%;
+}
+
+@media (min-width: 1440px) {
+    .logo {
+        margin-left: 7%;
+        width: 140px;
+    }
+
+    .signArea {
+        background-color: #31543B;
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+        align-items: center;
+        padding: 1.4em;
+        padding: 1% 2% 1%;
+        border-radius: 60px;
+        margin: 1em 5em 1em 0em;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .headerPrincipal .textosTitulo {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 48%;
+        gap: 13%;
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
+    }
+
+    .headerPrincipal .signArea {
+        display: block;
+        padding: 1.3em 2em 1.3em 2em;
+    }
+    
+    .headerPrincipal .titulo {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        margin: 20px;
+        padding-bottom: 4%;
+    }
+    .pattren {
+        padding-right: 11.5%;
+    }
+
+    .paginaMobile1 .tituloPg1 {
+        font-size: 4em;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: bold;
+        margin: 0% 20% 0% 20%;
+    }
+
+    .paginaMobile1 .textoPg1 {
+        font-size: 1em;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #757B8A;
+        margin-bottom: 5%;
+        margin-left: 20px;
+        margin-right: 20px;
+        line-height: 1.6em;
+    }
+
+    .paginaMobile1 .textoPg1 {
+        font-size: 1em;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        color: #757B8A;
+        margin: 2% 35% 5% 35%;
+        line-height: 1.6em;
+    }
+
+    .paginaMobile1 .botesPg1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }

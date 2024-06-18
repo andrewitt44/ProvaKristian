@@ -743,9 +743,9 @@ footer hr {
         line-height: 1.6em;
     }
 
-    .paginaMobile1 .botesPg1 {
+    .botoesPg1 {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
 
 }

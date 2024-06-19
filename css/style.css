@@ -105,6 +105,7 @@
     margin: 0;
 }
 
+
 .paginaMobile2 {
     background-color: #243D31;
     padding-top: 14%;
@@ -171,6 +172,7 @@
 }
 
 .paginaMobile3 .empresasPg3 {
+    display: block;
     padding-top: 12%;
     padding-bottom: 15%;
 }
@@ -181,6 +183,10 @@
 
 .paginaMobile3 .empresas2 {
     text-align: center;
+}
+
+.paginaMobile3 .empresas1pc {
+    display: none;
 }
 
 .paginaMobile4 {
@@ -719,7 +725,7 @@ footer hr {
     .paginaMobile1 .tituloPg1 {
         font-size: 4em;
         font-family: 'DM Sans', sans-serif;
-        font-weight: bold;
+        font-weight: 900;
         margin: 0% 20% 0% 20%;
     }
 
@@ -739,13 +745,126 @@ footer hr {
         font-family: 'Inter', sans-serif;
         font-weight: 400;
         color: #757B8A;
-        margin: 2% 35% 5% 35%;
+        margin: 2% 35% 2% 35%;
         line-height: 1.6em;
     }
 
     .botoesPg1 {
         display: flex;
         justify-content: center;
+        padding-bottom: 36.7%;
+    }
+
+    .emailArea {
+        padding-right: 220px;
+        padding-left: 30px;
+        margin-left: 15.5%;
+    }
+
+    .startArea {
+        margin-right: 16%;
+        margin-left: 0;
+        padding: 1.4em;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .dashboardMobile {
+        display: none;
+    }
+
+    .dashboardPc {
+        position: absolute;
+        right: 8%;
+        top: 52%;
+    }
+
+    .paginaMobile1 {
+        background-image: url(/css/Images/wallpaperPg1Pc.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 90%;
+    }
+
+    .paginaMobile2 {
+        background-color: #243D31;
+        padding-top: 14%;
+        padding-bottom: 11%;
+    }
+
+    .productOverview {
+        background-color: #E7FFD8;
+        font-family: 'DM Sans', sans-serif;
+        color: #24AA4A;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 10px;
+        border-radius: 20px;
+        margin-right: 72.3%;
+        margin-left: 16.8%;
+        margin-bottom: 2em;
+        margin-top: 1em;
+        font-size: 9px;
+        font-weight: bold;
+    }
+    .textoETitulo {
+        display: flex;
+    }
+    .paginaMobile2 .tituloPg2 {
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'DM Sans', sans-serif;
+        margin-bottom: 5%;
+        margin-right: 1%;
+        margin-left: 16.8%;
+        margin-top: 0;
+        color: #ffffff;
+    }
+    
+    .paginaMobile2 .textoPg2 {
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        color: #E6E9ED;
+        margin-top: 4.8%;
+        margin-bottom: 5%;
+        margin-right: 17%;
+        margin-left: 6%;
+        line-height: 1.7em;
+        align-items: center;
+    }
+    
+    .estatisticas {
+        padding-top: 1.5em;
+        color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        margin-right: 21.5%;
+        margin-left: 16.8%;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    .estatisticas .titulosEst {
+        font-size: 80px;
+        font-weight: bold;
+    }
+    
+    .estatisticas .textoEst {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .paginaMobile3 .empresasPg3 {
+        display: none;
+    }
+
+    .paginaMobile3 .empresas1pc {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 4% 5% 0% 5%;
     }
 
 }

@@ -30,14 +30,14 @@
     display: none;
 }
 
-.paginaMobile1 {
+.pagina-1 {
     text-align: center;
     background-image: url(/css/Images/wallpaperPg1.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.paginaMobile1 .tituloPg1 {
+.pagina-1 .tituloPg1 {
     font-size: 33px;
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
@@ -53,7 +53,7 @@
     padding-right: 1%;
 }
 
-.paginaMobile1 .textoPg1 {
+.pagina-1 .textoPg1 {
     font-size: 1em;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -99,15 +99,15 @@
     font-size: 15px;
 }
 
-.paginaMobile1 .dashboard {
+.pagina-1 .dashboard {
     width: 340px;
 }
 
-.paginaMobile1 .dashboardDiv {
+.pagina-1 .dashboardDiv {
     text-align: center;
 }
 
-.paginaMobile2 {
+.pagina-2 {
     background-color: #243D31;
     padding-top: 14%;
     padding-bottom: 24%;
@@ -129,7 +129,7 @@
     font-weight: bold;
 }
 
-.paginaMobile2 .tituloPg2 {
+.pagina-2 .tituloPg2 {
     font-size: 33px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
@@ -140,7 +140,7 @@
     color: #ffffff;
 }
 
-.paginaMobile2 .textoPg2 {
+.pagina-2 .textoPg2 {
     font-size: 12px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -172,29 +172,29 @@
     font-weight: 500;
 }
 
-.paginaMobile3 .empresasPg3 {
+.pagina-3 .empresasPg3 {
     display: block;
     padding-top: 12%;
     padding-bottom: 8%;
 }
 
-.paginaMobile3 .empresas1 {
+.pagina-3 .empresas1 {
     text-align: center;
 }
 
-.paginaMobile3 .empresas2 {
+.pagina-3 .empresas2 {
     text-align: center;
 }
 
-.paginaMobile3 .empresas1pc {
+.pagina-3 .empresas1pc {
     display: none;
 }
 
-.paginaMobile4 {
+.pagina-4 {
     padding-top: 15%;
 }
 
-.paginaMobile4 .imagemPg4 {
+.pagina-4 .imagemPg4 {
     text-align: center;
     position: relative;
     margin-left: 3.5%;
@@ -202,7 +202,7 @@
     height: 92%;
 }
 
-.paginaMobile4 .imagemEquipePg4 {
+.pagina-4 .imagemEquipePg4 {
     text-align: center;
     position: absolute;
     top: 70%;
@@ -225,7 +225,7 @@
     font-weight: bold;
 }
 
-.paginaMobile4 .tituloPg4 {
+.pagina-4 .tituloPg4 {
     font-size: 38px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
@@ -236,7 +236,7 @@
     color: #000000;
 }
 
-.paginaMobile4 .textoPg4 {
+.pagina-4 .textoPg4 {
     font-size: 18px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
@@ -247,7 +247,7 @@
     line-height: 1.5em;
 }
 
-.paginaMobile4 .texto2Pg4 {
+.pagina-4 .texto2Pg4 {
     font-size: 16px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
@@ -274,7 +274,7 @@
     font-weight: bold;
 }
 
-.paginaMobile5 .tituloPg5 {
+.pagina-5 .tituloPg5 {
     font-size: 40px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
@@ -285,7 +285,7 @@
     color: #000000;
 }
 
-.paginaMobile5 .textoPg5 {
+.pagina-5 .textoPg5 {
     font-size: 17px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -296,12 +296,12 @@
     line-height: 1.6em;
 }
 
-.paginaMobile5 .imagemKcal {
+.pagina-5 .imagemKcal {
     text-align: center;
     padding-top: 5%;
 }
 
-.paginaMobile5 .textoImagemPg5 {
+.pagina-5 .textoImagemPg5 {
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -310,7 +310,7 @@
     text-align: left;
 }
 
-.paginaMobile5 .learnMoreArea {
+.pagina-5 .learnMoreArea {
     border: #EDEDED, 1px, solid;
     border-radius: 60px;
     margin-top: 8%;
@@ -328,11 +328,11 @@
     justify-content: space-between;
 }
 
-.paginaMobile5 .setaLearnMore {
+.pagina-5 .setaLearnMore {
     padding-right: 15%;
 }
 
-.paginaMobile5 .learnMoreArea2 {
+.pagina-5 .learnMoreArea2 {
     border: #EDEDED, 1px, solid;
     border-radius: 60px;
     margin-top: 8%;
@@ -350,16 +350,16 @@
     justify-content: space-between;
 }
 
-.paginaMobile5 .setaLearnMore2 {
+.pagina-5 .setaLearnMore2 {
     padding-right: 15%;
 }
 
-.paginaMobile5 .imagemInflow {
+.pagina-5 .imagemInflow {
     text-align: center;
     padding-top: 11%;
 }
 
-.paginaMobile5 .textoImagemInflowPg5 {
+.pagina-5 .textoImagemInflowPg5 {
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     font-size: 24px;
@@ -368,7 +368,7 @@
     text-align: left;
 }
 
-.paginaMobile6 .tituloPg6 {
+.pagina-6 .tituloPg6 {
     font-size: 38px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
@@ -379,7 +379,7 @@
     color: #000000;
 }
 
-.paginaMobile6 .textoPg6 {
+.pagina-6 .textoPg6 {
     font-size: 16.3px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -390,19 +390,19 @@
     line-height: 1.7em;
 }
 
-.paginaMobile6 .imagemGraficoPg6 {
+.pagina-6 .imagemGraficoPg6 {
     text-align: center;
     padding-top: 4%;
     width: 373px;
 }
 
-.paginaMobile7 {
+.pagina-7 {
     background-color: #243D31;
     padding-top: 22%;
     padding-bottom: 24%;
 }
 
-.paginaMobile7 .tituloPg7 {
+.pagina-7 .tituloPg7 {
     font-size: 40px;
     font-weight: bold;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -413,7 +413,7 @@
     color: #ffffff;
 }
 
-.paginaMobile7 .textoPg7 {
+.pagina-7 .textoPg7 {
     font-size: 16.3px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -424,14 +424,14 @@
     line-height: 1.7em;
 }
 
-.paginaMobile7 .imagem1Pg7 {
+.pagina-7 .imagem1Pg7 {
     text-align: center;
     padding-left: 2%;
     position: relative;
     padding-bottom: 6%;
 }
 
-.paginaMobile7 .areaDeTextoPg7 {
+.pagina-7 .areaDeTextoPg7 {
     background-color: #ffffff;
     position: absolute;
     top: 59%;
@@ -448,14 +448,14 @@
     border-radius: 12px;
 }
 
-.paginaMobile7 .imagem2Pg7 {
+.pagina-7 .imagem2Pg7 {
     text-align: center;
     padding-left: 2%;
     position: relative;
     padding-bottom: 6%;
 }
 
-.paginaMobile7 .areaDeTexto2Pg7 {
+.pagina-7 .areaDeTexto2Pg7 {
     background-color: #ffffff;
     position: absolute;
     top: 59%;
@@ -472,14 +472,14 @@
     border-radius: 12px;
 }
 
-.paginaMobile7 .imagem3Pg7 {
+.pagina-7 .imagem3Pg7 {
     text-align: center;
     padding-left: 2%;
     position: relative;
     
 }
 
-.paginaMobile7 .areaDeTexto3Pg7 {
+.pagina-7 .areaDeTexto3Pg7 {
     background-color: #ffffff;
     position: absolute;
     top: 63%;
@@ -496,7 +496,7 @@
     border-radius: 12px;
 }
 
-.paginaMobile8 .tituloPg8 {
+.pagina-8 .tituloPg8 {
     font-size: 40px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
@@ -507,7 +507,7 @@
     color: #000000;
 }
 
-.paginaMobile8 .textoPg8 {
+.pagina-8 .textoPg8 {
     font-size: 16.3px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -518,16 +518,16 @@
     line-height: 1.7em;
 }
 
-.paginaMobile8 .imagemPg8 {
+.pagina-8 .imagemPg8 {
     text-align: center;
 }
 
-.paginaMobile8 .aspasPg8 {
+.pagina-8 .aspasPg8 {
     margin-top: 1.3em;
     margin-left: 7%;
 }
 
-.paginaMobile8 .textoBoldPg8 {
+.pagina-8 .textoBoldPg8 {
     font-size: 18px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
@@ -538,7 +538,7 @@
     margin-top: 4%;
 }
 
-.paginaMobile8 .nomeBoldPg8 {
+.pagina-8 .nomeBoldPg8 {
     font-size: 18px;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
@@ -549,7 +549,7 @@
     margin-top: 8%;
 }
 
-.paginaMobile8 .descricaoNomePg8 {
+.pagina-8 .descricaoNomePg8 {
     font-size: 16px;
     font-weight: 300;
     font-family: 'Inter', sans-serif;
@@ -559,12 +559,12 @@
     margin-left: 7%;
 }
 
-.paginaMobile8 .circulosPg8 {
+.pagina-8 .circulosPg8 {
     margin-left: 7%;
     margin-top: 15%;
 }
 
-.paginaMobile8 .tituloNotasPg8 {
+.pagina-8 .tituloNotasPg8 {
     font-size: 36px;
     font-weight: bold;
     font-family: 'DM Sans', sans-serif;
@@ -575,7 +575,7 @@
     color: #000000;
 }
 
-.paginaMobile8 .textoNotasPg8 {
+.pagina-8 .textoNotasPg8 {
     font-size: 16.3px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -766,14 +766,14 @@ footer .texto4Footer {
         padding-right: 11.5%;
     }
 
-    .paginaMobile1 .tituloPg1 {
+    .pagina-1 .tituloPg1 {
         font-size: 4em;
         font-family: 'DM Sans', sans-serif;
         font-weight: 900;
         margin: 0% 20% 0% 20%;
     }
 
-    .paginaMobile1 .textoPg1 {
+    .pagina-1 .textoPg1 {
         font-size: 1em;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
@@ -784,7 +784,7 @@ footer .texto4Footer {
         line-height: 1.6em;
     }
 
-    .paginaMobile1 .textoPg1 {
+    .pagina-1 .textoPg1 {
         font-size: 1em;
         font-family: 'Inter', sans-serif;
         font-weight: 400;
@@ -819,18 +819,18 @@ footer .texto4Footer {
         top: 70%;
     }
 
-    .paginaMobile1 .dashboard {
+    .pagina-1 .dashboard {
         width: 80%;
     }
 
-    .paginaMobile1 {
+    .pagina-1 {
         background-image: url(/css/Images/wallpaperPg1Pc.png);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 90%;
     }
 
-    .paginaMobile2 {
+    .pagina-2 {
         background-color: #243D31;
         padding-top: 17%;
         padding-bottom: 11%;
@@ -854,7 +854,7 @@ footer .texto4Footer {
     .textoETitulo {
         display: flex;
     }
-    .paginaMobile2 .tituloPg2 {
+    .pagina-2 .tituloPg2 {
         font-size: 60px;
         font-weight: bold;
         font-family: 'DM Sans', sans-serif;
@@ -865,7 +865,7 @@ footer .texto4Footer {
         color: #ffffff;
     }
     
-    .paginaMobile2 .textoPg2 {
+    .pagina-2 .textoPg2 {
         font-size: 15px;
         font-weight: 400;
         font-family: 'Inter', sans-serif;
@@ -899,11 +899,11 @@ footer .texto4Footer {
         font-weight: 500;
     }
     
-    .paginaMobile3 .empresasPg3 {
+    .pagina-3 .empresasPg3 {
         display: none;
     }
 
-    .paginaMobile3 .empresas1pc {
+    .pagina-3 .empresas1pc {
         display: block;
         display: flex;
         justify-content: space-between;
@@ -911,19 +911,19 @@ footer .texto4Footer {
         margin: 4% 5% 0% 5%;
     }
 
-    .paginaMobile4 {
+    .pagina-4 {
         padding-top: 10%;
         display: flex;
     }
 
-    .paginaMobile4 .imagemPg4 {
+    .pagina-4 .imagemPg4 {
         text-align: center;
         position: relative;
         margin: 0% 3% 0% 5%;
         width: 584px;
     }
     
-    .paginaMobile4 .imagemEquipePg4 {
+    .pagina-4 .imagemEquipePg4 {
         text-align: center;
         position: absolute;
         top: 62%;
@@ -931,7 +931,7 @@ footer .texto4Footer {
         width: 460px;
     }
 
-    .paginaMobile4 .textoETituloPg4 {
+    .pagina-4 .textoETituloPg4 {
         margin-left: 5%;
     }
 
@@ -951,7 +951,7 @@ footer .texto4Footer {
         font-weight: bold;
     }
     
-    .paginaMobile4 .tituloPg4 {
+    .pagina-4 .tituloPg4 {
         font-size: 40px;
         font-weight: bold;
         font-family: 'DM Sans', sans-serif;
@@ -963,7 +963,7 @@ footer .texto4Footer {
         color: #000000;
     }
     
-    .paginaMobile4 .textoPg4 {
+    .pagina-4 .textoPg4 {
         font-size: 18px;
         font-weight: 500;
         font-family: 'Inter', sans-serif;
@@ -974,7 +974,7 @@ footer .texto4Footer {
         line-height: 1.5em;
     }
     
-    .paginaMobile4 .texto2Pg4 {
+    .pagina-4 .texto2Pg4 {
         font-size: 16px;
         font-weight: 400;
         font-family: 'Inter', sans-serif;
@@ -985,19 +985,19 @@ footer .texto4Footer {
         line-height: 1.6em;
     }
 
-    .paginaMobile5 {
+    .pagina-5 {
         display: flex;
         background-image: url(/css/Images/wallpaperPg5.png);
         background-repeat: no-repeat;
         background-size: 100%;
     }
 
-    .paginaMobile5 .pagina5div1 {
+    .pagina-5 .pagina5div1 {
         margin-left: 4%;
     }
 
 
-    .paginaMobile5 .pagina5div2 {
+    .pagina-5 .pagina5div2 {
         margin-right: 5%;
     }
 
@@ -1017,7 +1017,7 @@ footer .texto4Footer {
         font-weight: bold;
     }
     
-    .paginaMobile5 .tituloPg5 {
+    .pagina-5 .tituloPg5 {
         font-size: 40px;
         font-weight: bold;
         font-family: 'DM Sans', sans-serif;
@@ -1028,7 +1028,7 @@ footer .texto4Footer {
         color: #000000;
     }
     
-    .paginaMobile5 .textoPg5 {
+    .pagina-5 .textoPg5 {
         font-size: 16px;
         font-weight: 400;
         font-family: 'Inter', sans-serif;
@@ -1039,17 +1039,17 @@ footer .texto4Footer {
         line-height: 1.6em;
     }
     
-    .paginaMobile5 .imagemKcalPg5 {
+    .pagina-5 .imagemKcalPg5 {
         padding-top: 2%;
         width: 560px;
     }
 
-    .paginaMobile5 .imagemKcal {
+    .pagina-5 .imagemKcal {
         text-align: start;
         margin-left: 6.5%;
     }
     
-    .paginaMobile5 .textoImagemPg5 {
+    .pagina-5 .textoImagemPg5 {
         font-family: 'DM Sans', sans-serif;
         font-weight: bold;
         font-size: 32px;
@@ -1059,7 +1059,7 @@ footer .texto4Footer {
         text-align: left;
     }
     
-    .paginaMobile5 .learnMoreArea {
+    .pagina-5 .learnMoreArea {
         border-radius: 60px;
         margin-top: 7.2%;
         margin-left: 6.5%;
@@ -1076,11 +1076,11 @@ footer .texto4Footer {
         justify-content: space-between;
     }
     
-    .paginaMobile5 .setaLearnMore {
+    .pagina-5 .setaLearnMore {
         padding-right: 15%;
     }
 
-    .paginaMobile5 .learnMoreArea2 {
+    .pagina-5 .learnMoreArea2 {
         border: #EDEDED, 1px, solid;
         border-radius: 60px;
         margin-top: 8%;
@@ -1098,23 +1098,23 @@ footer .texto4Footer {
         justify-content: space-between;
     }
     
-    .paginaMobile5 .setaLearnMore2 {
+    .pagina-5 .setaLearnMore2 {
         padding-right: 15%;
     }
     
-    .paginaMobile5 .imagemInflowPg5 {
+    .pagina-5 .imagemInflowPg5 {
         margin-top: 35.5%;
         margin-right: 20%;
         width: 560px;
         height: 850px;
     }
 
-    .paginaMobile5 .imagemInflow {
+    .pagina-5 .imagemInflow {
         text-align: center;
         padding-top: 0%;
     }
     
-    .paginaMobile5 .textoImagemInflowPg5 {
+    .pagina-5 .textoImagemInflowPg5 {
         font-family: 'DM Sans', sans-serif;
         font-weight: bold;
         font-size: 32px;
@@ -1124,7 +1124,7 @@ footer .texto4Footer {
         text-align: left;
     }
 
-    .paginaMobile6 {
+    .pagina-6 {
         margin-top: 15%;
     }
 
@@ -1132,7 +1132,7 @@ footer .texto4Footer {
         display: flex;
     }
 
-    .paginaMobile6 .tituloPg6 {
+    .pagina-6 .tituloPg6 {
         font-size: 34px;
         font-weight: bold;
         font-family: 'DM Sans', sans-serif;
@@ -1144,7 +1144,7 @@ footer .texto4Footer {
         width: 590px;
     }
     
-    .paginaMobile6 .textoPg6 {
+    .pagina-6 .textoPg6 {
         font-size: 16.3px;
         font-weight: 400;
         font-family: 'Inter', sans-serif;
@@ -1156,11 +1156,11 @@ footer .texto4Footer {
         width: 80%;
     }
 
-    .paginaMobile6 .imagemGrafico {
+    .pagina-6 .imagemGrafico {
         text-align: center;
     }
     
-    .paginaMobile6 .imagemGraficoPg6 {
+    .pagina-6 .imagemGraficoPg6 {
         padding-top: 0%;
         width: 80%;
         height: 80%;
@@ -1171,13 +1171,13 @@ footer .texto4Footer {
         align-items: center;
     }
 
-    .paginaMobile7 {
+    .pagina-7 {
         background-color: #243D31;
         padding-top: 10%;
         padding-bottom: 5%;
     }
 
-    .paginaMobile7 .textoPg7 {
+    .pagina-7 .textoPg7 {
         font-size: 16.3px;
         font-weight: 400;
         font-family: 'Inter', sans-serif;
@@ -1192,7 +1192,7 @@ footer .texto4Footer {
         display: flex;
     }
     
-    .paginaMobile7 .imagem1Pg7 {
+    .pagina-7 .imagem1Pg7 {
         text-align: center;
         padding-left: 0%;
         margin-left: 10%;
@@ -1205,7 +1205,7 @@ footer .texto4Footer {
         margin-top: 5%;
     }
     
-    .paginaMobile7 .areaDeTextoPg7 {
+    .pagina-7 .areaDeTextoPg7 {
         background-color: #ffffff;
         position: absolute;
         top: 55%;
@@ -1222,14 +1222,14 @@ footer .texto4Footer {
         border-radius: 12px;
     }
     
-    .paginaMobile7 .imagem2Pg7 {
+    .pagina-7 .imagem2Pg7 {
         text-align: center;
         padding-left: 2%;
         position: relative;
         padding-bottom: 6%;
     }
     
-    .paginaMobile7 .areaDeTexto2Pg7 {
+    .pagina-7 .areaDeTexto2Pg7 {
         background-color: #ffffff;
         position: absolute;
         top: 55%;
@@ -1246,14 +1246,14 @@ footer .texto4Footer {
         border-radius: 12px;
     }
     
-    .paginaMobile7 .imagem3Pg7 {
+    .pagina-7 .imagem3Pg7 {
         text-align: center;
         padding-left: 2%;
         position: relative;
         
     }
     
-    .paginaMobile7 .areaDeTexto3Pg7 {
+    .pagina-7 .areaDeTexto3Pg7 {
         background-color: #ffffff;
         position: absolute;
         top: 55%;
@@ -1275,49 +1275,49 @@ footer .texto4Footer {
         align-items: top;
     }
 
-    .paginaMobile8 .tituloPg8 {
+    .pagina-8 .tituloPg8 {
         margin-top: 10%;
         margin-right: 24%;
         padding-left: 3%;
         width: 900px;
     }
     
-    .paginaMobile8 .textoPg8 {
+    .pagina-8 .textoPg8 {
         font-size: 16px;
         margin-top: 10.5%;
         margin-left: 0%;
         margin-right: 9%;
     }
 
-    .paginaMobile8 .usuarioPg8 {
+    .pagina-8 .usuarioPg8 {
         display: flex;
     }
     
-    .paginaMobile8 .imagemPg8 {
+    .pagina-8 .imagemPg8 {
         margin-left: 14.5%;
     }
 
-    .paginaMobile8 .imagemPg8Pc {
+    .pagina-8 .imagemPg8Pc {
         width: 500px;
         height: 380px;
     }
 
-    .paginaMobile8 .informacaoUsuario {
+    .pagina-8 .informacaoUsuario {
         margin-left: 3%;
         margin-right: 10%;
     }
     
-    .paginaMobile8 .aspasPg8 {
+    .pagina-8 .aspasPg8 {
         margin-top: 1.3em;
         margin-left: 7%;
     }
 
-    .paginaMobile8 .aspasUsuario {
+    .pagina-8 .aspasUsuario {
         width: 60px;
         margin-top: 0%;
     }
     
-    .paginaMobile8 .textoBoldPg8 {
+    .pagina-8 .textoBoldPg8 {
         font-size: 24px;
         font-weight: bold;
         font-family: 'Inter', sans-serif;
@@ -1328,7 +1328,7 @@ footer .texto4Footer {
         margin-top: 4%;
     }
     
-    .paginaMobile8 .nomeBoldPg8 {
+    .pagina-8 .nomeBoldPg8 {
         font-size: 18px;
         font-weight: bold;
         font-family: 'Inter', sans-serif;
@@ -1339,7 +1339,7 @@ footer .texto4Footer {
         margin-top: 9%;
     }
     
-    .paginaMobile8 .descricaoNomePg8 {
+    .pagina-8 .descricaoNomePg8 {
         font-size: 16px;
         font-weight: 300;
         font-family: 'Inter', sans-serif;
@@ -1349,16 +1349,16 @@ footer .texto4Footer {
         margin-left: 7%;
     }
     
-    .paginaMobile8 .circulosPg8 {
+    .pagina-8 .circulosPg8 {
         margin-left: 7%;
         margin-top: 10%;
     }
 
-    .paginaMobile8 .agenciesPg8 {
+    .pagina-8 .agenciesPg8 {
         display: flex;
     }
     
-    .paginaMobile8 .tituloNotasPg8 {
+    .pagina-8 .tituloNotasPg8 {
         font-size: 40px;
         font-weight: bold;
         font-family: 'DM Sans', sans-serif;
@@ -1369,7 +1369,7 @@ footer .texto4Footer {
         color: #000000;
     }
     
-    .paginaMobile8 .textoNotasPg8 {
+    .pagina-8 .textoNotasPg8 {
         font-size: 17px;
         font-weight: 400;
         font-family: 'Inter', sans-serif;
@@ -1392,11 +1392,11 @@ footer .texto4Footer {
         font-family: 'DM Sans', sans-serif;
     }
     
-    .paginaMobile8 .primeiraNota {
+    .pagina-8 .primeiraNota {
         margin-right: 16%;
     }
 
-    .paginaMobile8 .segundaNota {
+    .pagina-8 .segundaNota {
         margin-left: 16%;
     }
     
@@ -1426,7 +1426,7 @@ footer .texto4Footer {
     
     footer .logoFooter {
         margin-left: 7%;
-        margin-right: 49%;
+        margin-right: 53%;
         text-align: center;
         padding-bottom: 0%;
     }
@@ -1464,7 +1464,7 @@ footer .texto4Footer {
 
     footer .hrFooterPc {
         margin-bottom: 3%;
-        width: 81.7%;
+        width: 80.5%;
     }
 
     footer .texto2Footer {

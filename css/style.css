@@ -103,6 +103,18 @@
     width: 340px;
 }
 
+@media (min-width: 560px) {
+    .pagina-1 .dashboard {
+        width: 400px;
+    }
+}
+
+@media (min-width: 643px) {
+    .pagina-1 .dashboard {
+        width: 450px;
+    }
+}
+
 .pagina-1 .dashboardDiv {
     text-align: center;
 }
@@ -178,6 +190,10 @@
     padding-bottom: 8%;
 }
 
+.pagina-3 .imgEmpresas {
+    width: 45.2%;
+}
+
 .pagina-3 .empresas1 {
     text-align: center;
 }
@@ -207,6 +223,33 @@
     position: absolute;
     top: 70%;
     left: 11%;
+}
+
+@media (min-width: 440px) {
+    .pagina-4 .imagemEquipePg4 {
+        text-align: center;
+        position: absolute;
+        top: 75%;
+        left: 15%;
+    }
+}
+
+@media (min-width: 520px) {
+    .pagina-4 .imagemEquipePg4 {
+        text-align: center;
+        position: absolute;
+        top: 80%;
+        left: 20%;
+    }
+}
+
+@media (min-width: 640px) {
+    .pagina-4 .imagemEquipePg4 {
+        text-align: center;
+        position: absolute;
+        top: 85%;
+        left: 25%;
+    }
 }
 
 .expertTeam {
@@ -301,6 +344,10 @@
     padding-top: 5%;
 }
 
+.pagina-5 .imagemKcalPg5 {
+    width: 87.5%;
+}
+
 .pagina-5 .textoImagemPg5 {
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
@@ -359,6 +406,10 @@
     padding-top: 11%;
 }
 
+.pagina-5 .imagemInflowPg5 {
+    width: 88%;
+}
+
 .pagina-5 .textoImagemInflowPg5 {
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
@@ -390,10 +441,27 @@
     line-height: 1.7em;
 }
 
-.pagina-6 .imagemGraficoPg6 {
+.pagina-6 .imagemGrafico {
     text-align: center;
+}
+
+.pagina-6 .imagemGraficoPg6 {
     padding-top: 4%;
     width: 373px;
+}
+
+@media (min-width: 540px) {
+    .pagina-6 .imagemGraficoPg6 {
+        padding-top: 4%;
+        width: 400px;
+    }
+}
+
+@media (min-width: 601px) {
+    .pagina-6 .imagemGraficoPg6 {
+        padding-top: 4%;
+        width: 500px;
+    }
 }
 
 .pagina-7 {
@@ -430,6 +498,10 @@
     position: relative;
     padding-bottom: 6%;
 }
+
+/* .pagina-7 .imagemPg7 {
+    width: 87%;
+} */
 
 .pagina-7 .areaDeTextoPg7 {
     background-color: #ffffff;
@@ -496,6 +568,79 @@
     border-radius: 12px;
 }
 
+@media (min-width: 390px) {
+    .pagina-7 .imagemPg7 {
+        width: 340px;
+    }
+}
+
+@media (min-width: 410px) {
+    .pagina-7 .imagemPg7 {
+        width: 360px;
+    }
+}
+
+@media (min-width: 440px) {
+    .pagina-7 .imagemPg7 {
+        width: 380px;
+    }
+}
+
+@media (min-width: 470px) {
+    .pagina-7 .imagemPg7 {
+        width: 400px;
+    }
+}
+
+@media (min-width: 469px){
+
+    .pagina-7 .areaDeTextoPg7 {
+        top: 67%;
+        left: 10%;
+    }
+
+    .pagina-7 .areaDeTexto2Pg7 {
+        top: 60%;
+        left: 10%;
+    }
+    
+    .pagina-7 .areaDeTexto3Pg7 {
+        top: 64%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 535px){
+    .pagina-7 .areaDeTextoPg7 {
+        top: 72%;
+        left: 10%;
+    }
+
+    .pagina-7 .areaDeTexto2Pg7 {
+        top: 67%;
+        left: 10%;
+    }
+    
+    .pagina-7 .areaDeTexto3Pg7 {
+        top: 72%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 586px){
+    .pagina-7 .areaDeTexto3Pg7 {
+        top: 77%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 678px){
+    .pagina-7 .areaDeTexto2Pg7 {
+        top: 72%;
+        left: 10%;
+    }
+}
+
 .pagina-8 .tituloPg8 {
     font-size: 40px;
     font-weight: bold;
@@ -520,6 +665,10 @@
 
 .pagina-8 .imagemPg8 {
     text-align: center;
+}
+
+.pagina-8 .imagemPg8Pc {
+    width: 87%;
 }
 
 .pagina-8 .aspasPg8 {
@@ -611,6 +760,8 @@
 footer {
     background-image: url(/css/Images/backgroundFooter.png);
     padding-top: 15%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 footer .logoFooter {
@@ -1416,6 +1567,7 @@ footer .texto4Footer {
     footer {
         background-image: url(/css/Images/wallpaperFooterPc.png);
         padding-top: 8%;
+        padding-left: 4%;
     }
 
     footer .footerPart1 {

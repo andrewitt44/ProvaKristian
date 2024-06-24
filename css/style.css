@@ -499,10 +499,6 @@
     padding-bottom: 6%;
 }
 
-/* .pagina-7 .imagemPg7 {
-    width: 87%;
-} */
-
 .pagina-7 .areaDeTextoPg7 {
     background-color: #ffffff;
     position: absolute;
@@ -589,6 +585,13 @@
 @media (min-width: 470px) {
     .pagina-7 .imagemPg7 {
         width: 400px;
+    }
+}
+
+@media (max-width: 370px){
+    .pagina-7 .areaDeTexto2Pg7 {
+        top: 52%;
+        left: 10%;
     }
 }
 
@@ -865,6 +868,26 @@ footer .texto4Footer {
     justify-content: space-between;
     margin: 10% 30% 0% 33%;
     padding-bottom: 7%;
+}
+
+@media (min-width: 794px) {
+    .botoesPg1 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    .emailArea {
+        padding-right: 150px;
+        padding-left: 30px;
+        margin-left: 11%;
+    }
+    .startArea {
+        margin-right: 16%;
+        margin-left: 0;
+        padding: 1.4em;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -1352,7 +1375,7 @@ footer .texto4Footer {
     }
 
     .imagemPg7 {
-        width: 379px;
+        width: 365px !important;
         margin-top: 5%;
     }
     

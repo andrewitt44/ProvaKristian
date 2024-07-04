@@ -1,7 +1,7 @@
 # MEU SITE
 
 Muito bem-vindo ao meu site! 
-Ele foi feito com base em um design projetado no figma, passado pelo professor Kristian Erdmann, foi um projeto que teve uma duração de aproximadamente 5 semanas. O meu site foi desenvolvido para ser utilizado em duas proporções: 375px e 1440px, a forma de visualização será descrita em breve.
+Ele foi feito com base em um design projetado no figma, passado pelo professor Kristian Erdmann, foi um projeto que teve uma duração de aproximadamente 5 semanas. O meu site foi desenvolvido para ser utilizado em duas proporções: 375px e 1440px. Ele tem o tema de um site sobre uma empresa, esta agência é de um software de desenvolvimento que é feito para te ajudar no seu projeto, a forma de visualização será descrita em breve.
 
 # TECNOLOGIAS UTILIZADAS
 

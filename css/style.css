@@ -291,7 +291,7 @@
     margin-left: 7%;
     margin-bottom: 2em;
     margin-top: 9em;
-    font-size: 7.5px;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -340,7 +340,7 @@
     margin-left: 7%;
     margin-bottom: 2em;
     margin-top: 13em;
-    font-size: 2.27vw;
+    font-size: 2vw;
     font-weight: bold;
 }
 
@@ -487,7 +487,7 @@
 @media (min-width: 601px) {
     .pagina-6 .imagemGraficoPg6 {
         padding-top: 4%;
-        width: 500px;
+        width: 80%;
     }
 }
 
@@ -1058,6 +1058,24 @@ footer .texto4Footer {
         font-size: 7.5px;
         font-weight: bold;
     }
+
+    .amanzingAnalisys {
+        background-color: #E7FFD8;
+        font-family: 'DM Sans', sans-serif;
+        color: #24AA4A;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 10px;
+        border-radius: 20px;
+        margin-right: 80.5%;
+        margin-left: 7%;
+        margin-bottom: 2em;
+        margin-top: 13em;
+        font-size: 7.5px;
+        font-weight: bold;
+    }
+
+    
 
 }
 

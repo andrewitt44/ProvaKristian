@@ -299,7 +299,7 @@
 }
 
 .pagina-5 .imagemKcalPg5 {
-    width: 328px;
+    width: 92%;
 
 }
 
@@ -361,7 +361,7 @@
 }
 
 .pagina-5 .imagemInflowPg5 {
-    width: 328px;
+    width: 85.5%;
     margin-left: 1.64rem;
 }
 
@@ -956,10 +956,6 @@ footer .texto4Footer {
         font-weight: bold;
         max-width: 120px;
     }
-
-    .pagina-5 {
-        display: flex;
-    }
     
     .pagina-5 .learnMoreArea {
         border: #EDEDED, 1px, solid;
@@ -1031,7 +1027,7 @@ footer .texto4Footer {
     .pagina-7 .imagem1Pg7 {
         text-align: center;
         padding-left: 0%;
-        margin-left: 10%;
+        margin-left: 4%;
         position: relative;
         padding-bottom: 6%;
     }
@@ -1209,7 +1205,7 @@ footer .texto4Footer {
     .dashboard {
         position: absolute;
         right: 8%;
-        top: 70%;
+        top: 66%;
     }
 
     .pagina-1 .dashboard {
@@ -1302,7 +1298,7 @@ footer .texto4Footer {
     }
 
     .pagina-4 {
-        padding-top: 10%;
+        padding-top: 8.6rem;
         display: flex;
     }
 
@@ -1566,6 +1562,15 @@ footer .texto4Footer {
         align-items: center;
     }
 
+    .pagina-7 .tituloPg7 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: var(--fontJak);
+        margin: 0 4.69rem 1.17rem 6rem;
+        color: #ffffff;
+        max-width: 400px;
+    }
+
     .pagina-7 {
         background-color: #243D31;
         padding-top: 10%;
@@ -1578,19 +1583,21 @@ footer .texto4Footer {
         font-family: var(--fontInt);
         color: #D6D6D6;
         margin-bottom: 5%;
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 12%;
+        margin-left: 27%;
+        margin-top: 3%;
         line-height: 1.7em;
     }
 
     .imagensPg7 {
         display: flex;
+        gap: 15px;
     }
 
     .pagina-7 .imagem1Pg7 {
         text-align: center;
         padding-left: 0%;
-        margin-left: 10%;
+        margin-left: 6rem;
         position: relative;
         padding-bottom: 6%;
     }
@@ -1686,10 +1693,11 @@ footer .texto4Footer {
 
     .pagina-8 .usuarioPg8 {
         display: flex;
+        margin-top: 6rem;
     }
 
     .pagina-8 .imagemPg8 {
-        margin-left: 4.5rem;
+        margin-left: 8rem;
     }
 
     .pagina-8 .imagemPg8Pc {
@@ -1759,7 +1767,7 @@ footer .texto4Footer {
         font-family: var(--fontDm);
         margin-bottom: 3.5%;
         margin-right: 7%;
-        margin-left: 26%;
+        margin-left: 8.5rem;
         margin-top: 18%;
         color: #000000;
     }
@@ -1771,7 +1779,7 @@ footer .texto4Footer {
         color: #757B8A;
         margin-bottom: 5%;
         margin-right: 5%;
-        margin-left: 26%;
+        margin-left: 8.5rem;
         line-height: 1.7em;
     }
 
@@ -1781,7 +1789,7 @@ footer .texto4Footer {
         text-align: left;
         justify-content: space-between;
         margin-top: 10%;
-        margin-right: 12.7%;
+        margin-right: 20%;
         margin-left: 7%;
         margin-bottom: 13%;
         font-family: var(--fontDm);

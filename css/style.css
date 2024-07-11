@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+:root{
+    --fontDm: 'DM Sans', sans-serif;
+    --fontInt: 'Inter', sans-serif;
+    --fontJak: 'Plus Jakarta Sans', sans-serif;
+}
+
 .menu {
     width: 24px;
     height: 24px;
@@ -17,8 +23,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
-    padding-bottom: 4%;
+    margin: 1.63rem;
+    padding-bottom: 0.63rem;
 }
 
 
@@ -39,45 +45,37 @@
 
 .pagina-1 .tituloPg1 {
     font-size: 33px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     font-weight: bold;
-    margin-bottom: 6%;
-    margin-top: 0;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 1.63rem 1.63rem 1.63rem;
 }
 
 
 .pattren {
     text-align: end;
-    padding-right: 1%;
+    padding-right: 0.63rem;
 }
 
 .pagina-1 .textoPg1 {
-    font-size: 1em;
-    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-family: var(--fontInt);
     font-weight: 400;
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-left: 20px;
-    margin-right: 20px;
-    line-height: 1.6em;
+    margin: 0 1.63rem 1.17em 1.63rem;
+    line-height: 1.63rem;
 }
 
 .emailArea {
     background-color: #F3F4F8;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     padding: 1.5em;
     padding-left: 26px;
     border-radius: 60px;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin: 1rem 1.63rem 0.63rem 1.63rem;
     max-width: 100%;
     text-align: left;
     font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .emailArea h3 {
@@ -86,15 +84,12 @@
 
 .startArea {
     background-color: #243D31;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #ffffff;
     padding: 1.4em;
     padding-left: 26px;
     border-radius: 60px;
-    margin-right: 12.7%;
-    margin-left: 12.7%;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    margin: 1rem 2.63rem 1rem 2.63rem;
     text-align: center;
     font-size: 15px;
 }
@@ -102,44 +97,6 @@
 .pagina-1 .dashboard {
     width: 91%;
 }
-
-/* @media (min-width: 560px) {
-    .pagina-1 .dashboard {
-        width: 400px;
-    }
-}
-
-@media (min-width: 643px) {
-    .pagina-1 .dashboard {
-        width: 450px;
-    }
-}
-
-@media (min-width: 710px) {
-    .pagina-1 .dashboard {
-        width: 500px;
-    }
-}
-
-@media (min-width: 710px) {
-    .pagina-1 .dashboard {
-        width: 550px;
-    }
-}
-
-@media (min-width: 794px) {
-    .pagina-1 .dashboard {
-        width: 600px;
-    }
-}
-
-@media (min-width: 874px) {
-    .pagina-1 .dashboard {
-        width: 650px;
-    }
-} */
-
-
 
 
 .pagina-1 .dashboardDiv {
@@ -154,39 +111,30 @@
 
 .productOverview {
     background-color: #E7FFD8;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     color: #24AA4A;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 10px;
+    padding: 0.47rem 0rem 0.47rem 0.63rem;
     border-radius: 20px;
-    margin-right: 59%;
-    margin-left: 10%;
-    margin-bottom: 2em;
-    margin-top: 1em;
+    margin: 1rem  13.83rem 0.81rem 2.34rem;
     font-size: 6.5px;
     font-weight: bold;
+    max-width: 110px;
 }
 
 .pagina-2 .tituloPg2 {
     font-size: 33px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: 5%;
-    margin-right: 20%;
-    margin-left: 10%;
-    margin-top: 0;
+    font-family: var(--fontDm);
+    margin: 0 4.69rem 1.17rem 2.34rem;
     color: #ffffff;
 }
 
 .pagina-2 .textoPg2 {
     font-size: 12px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #E6E9ED;
-    margin-bottom: 5%;
-    margin-right: 12.7%;
-    margin-left: 10%;
+    margin: 0 2.977rem 1.17rem 2.34rem;
     line-height: 1.7em;
 }
 
@@ -196,9 +144,8 @@
     display: flex;
     text-align: left;
     justify-content: space-between;
-    margin-right: 12.7%;
-    margin-left: 10%;
-    font-family: 'DM Sans', sans-serif;
+    margin: 0 2.977rem 0 2.34rem;
+    font-family: var(--fontDm);
 }
 
 .estatisticas .titulosEst {
@@ -213,8 +160,7 @@
 
 .pagina-3 .empresasPg3 {
     display: block;
-    padding-top: 12%;
-    padding-bottom: 8%;
+    padding: 2.81rem 0 1.88rem 0;
 }
 
 .pagina-3 .imgEmpresas {
@@ -234,13 +180,13 @@
 }
 
 .pagina-4 {
-    padding-top: 15%;
+    padding: 3.515rem 0 0 0;
 }
 
 .pagina-4 .imagemPg4 {
     text-align: center;
     position: relative;
-    margin-left: 3.5%;
+    margin: 0 0 0 0.754rem;
     width: 92%;
     height: 92%;
 }
@@ -281,24 +227,22 @@
 
 .expertTeam {
     background-color: #E7FFD8;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     color: #24AA4A;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 10px;
     border-radius: 20px;
-    margin-right: 55.7%;
-    margin-left: 7%;
-    margin-bottom: 2em;
-    margin-top: 9em;
+    margin: 9em 13.054rem 2rem 1.64rem;
     font-size: 7.5px;
     font-weight: bold;
+    max-width: 130px;
 }
 
 .pagina-4 .tituloPg4 {
     font-size: 38px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     margin-bottom: 10%;
     margin-right: 10%;
     margin-left: 7%;
@@ -309,7 +253,7 @@
 .pagina-4 .textoPg4 {
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #101010;
     margin-bottom: 5%;
     margin-right: 1%;
@@ -320,7 +264,7 @@
 .pagina-4 .texto2Pg4 {
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -330,24 +274,25 @@
 
 .amanzingAnalisys {
     background-color: #E7FFD8;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     color: #24AA4A;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 10px;
     border-radius: 20px;
-    margin-right: 55%;
+    margin-right: 59%;
     margin-left: 7%;
     margin-bottom: 2em;
     margin-top: 13em;
-    font-size: 2.27vw;
+    font-size: 7.5px;
     font-weight: bold;
+    max-width: 120px;
 }
 
 .pagina-5 .tituloPg5 {
     font-size: 40px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     margin-bottom: 4%;
     margin-right: 20%;
     margin-left: 7%;
@@ -358,7 +303,7 @@
 .pagina-5 .textoPg5 {
     font-size: 17px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -376,7 +321,7 @@
 }
 
 .pagina-5 .textoImagemPg5 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     font-weight: bold;
     font-size: 24px;
     margin-left: 6.5%;
@@ -390,16 +335,17 @@
     margin-top: 8%;
     margin-left: 7%;
     margin-right: 45%;
-    padding-left: 7%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding: 15px 0 15px 20px;
     display: flex;
     font-size: 11.5px;
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #31543B;
     align-items: center;
-    justify-content: space-between;
+    gap: 17px;
+    justify-content: center;
+    max-width: 152px;
+    max-height: 20px;
 }
 
 .pagina-5 .setaLearnMore {
@@ -412,17 +358,19 @@
     margin-top: 8%;
     margin-left: 7%;
     margin-right: 45%;
-    padding-left: 7%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding: 15px 0 15px 20px;
     display: flex;
     font-size: 11.5px;
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #31543B;
     align-items: center;
-    justify-content: space-between;
+    gap: 17px;
+    justify-content: center;
+    max-width: 152px;
+    max-height: 20px;
 }
+
 
 .pagina-5 .setaLearnMore2 {
     padding-right: 15%;
@@ -438,7 +386,7 @@
 }
 
 .pagina-5 .textoImagemInflowPg5 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     font-weight: bold;
     font-size: 24px;
     margin-left: 6.5%;
@@ -449,7 +397,7 @@
 .pagina-6 .tituloPg6 {
     font-size: 38px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     margin-bottom: 7%;
     margin-right: 7%;
     margin-left: 7%;
@@ -460,7 +408,7 @@
 .pagina-6 .textoPg6 {
     font-size: 16.3px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -487,7 +435,7 @@
 @media (min-width: 601px) {
     .pagina-6 .imagemGraficoPg6 {
         padding-top: 4%;
-        width: 500px;
+        width: 84%;
     }
 }
 
@@ -500,7 +448,7 @@
 .pagina-7 .tituloPg7 {
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: var(--fontJak);
     margin-bottom: 5%;
     margin-right: 20%;
     margin-left: 10%;
@@ -511,7 +459,7 @@
 .pagina-7 .textoPg7 {
     font-size: 16.3px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #D6D6D6;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -531,8 +479,8 @@
     position: absolute;
     top: 59%;
     left: 10%;
-    font-weight: 18px;
-    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-family: var(--fontInt);
     font-weight: 600;
     text-align: left;
     padding-bottom: 1.5em;
@@ -555,8 +503,8 @@
     position: absolute;
     top: 59%;
     left: 10%;
-    font-weight: 18px;
-    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-family: var(--fontInt);
     font-weight: 600;
     text-align: left;
     padding-bottom: 1.5em;
@@ -579,8 +527,8 @@
     position: absolute;
     top: 63%;
     left: 10%;
-    font-weight: 18px;
-    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-family: var(--fontInt);
     font-weight: 600;
     text-align: left;
     padding-bottom: 1.5em;
@@ -674,7 +622,7 @@
 .pagina-8 .tituloPg8 {
     font-size: 40px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     margin-bottom: 7%;
     margin-right: 7%;
     margin-left: 7%;
@@ -685,7 +633,7 @@
 .pagina-8 .textoPg8 {
     font-size: 16.3px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -709,7 +657,7 @@
 .pagina-8 .textoBoldPg8 {
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #101010;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -720,7 +668,7 @@
 .pagina-8 .nomeBoldPg8 {
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #101010;
     margin-bottom: 3%;
     margin-right: 5%;
@@ -731,7 +679,7 @@
 .pagina-8 .descricaoNomePg8 {
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -746,7 +694,7 @@
 .pagina-8 .tituloNotasPg8 {
     font-size: 36px;
     font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
     margin-bottom: 7%;
     margin-right: 7%;
     margin-left: 7%;
@@ -757,7 +705,7 @@
 .pagina-8 .textoNotasPg8 {
     font-size: 16.3px;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     color: #757B8A;
     margin-bottom: 5%;
     margin-right: 5%;
@@ -774,7 +722,7 @@
     margin-right: 12.7%;
     margin-left: 7%;
     margin-bottom: 20%;
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--fontDm);
 }
 
 .notas .notasAvaliacoes {
@@ -801,7 +749,7 @@ footer .logoFooter {
 
 footer .readyFooter {
     text-align: center;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     font-weight: 500;
     font-size: 16px;
     padding-bottom: 5%;
@@ -809,7 +757,7 @@ footer .readyFooter {
 
 footer .getStartedButton {
     background-color: #31543B;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     font-size: 16px;
     font-weight: bold;
     color: #F9F9FB;
@@ -823,7 +771,7 @@ footer .getStartedButton {
 }
 
 footer .subscribeTexto {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     font-size: 24px;
     font-weight: bold;
     text-align: left;
@@ -834,7 +782,7 @@ footer .emailAddresArea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     font-weight: 500;
     margin: 0% 5% 0% 7%;
 }
@@ -845,7 +793,7 @@ footer .emailAddresArea .email {
 
 footer .emailAddresArea .setinha {
     background-color: #31543B;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     font-size: 16px;
     font-weight: 400;
     color: #F9F9FB;
@@ -883,7 +831,7 @@ footer .texto4Footer {
 .textoFooter {
     display: flex;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--fontInt);
     font-weight: 300;
     font-size: 16px;
     color: #33353E;
@@ -928,7 +876,7 @@ footer .texto4Footer {
 
     .signArea {
         background-color: #31543B;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: bold;
         color: #ffffff;
         align-items: center;
@@ -954,7 +902,7 @@ footer .texto4Footer {
         justify-content: space-between;
         margin-right: 48%;
         gap: 25%;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 300;
     }
 
@@ -965,7 +913,7 @@ footer .texto4Footer {
 
     .productOverview {
         background-color: #E7FFD8;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         color: #24AA4A;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -986,7 +934,7 @@ footer .texto4Footer {
     .pagina-2 .tituloPg2 {
         font-size: 40px;
         font-weight: bold;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         margin-bottom: 5%;
         margin-right: 1%;
         margin-left: 10%;
@@ -997,7 +945,7 @@ footer .texto4Footer {
     .pagina-2 .textoPg2 {
         font-size: 15px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #E6E9ED;
         margin-top: 0%;
         margin-bottom: 5%;
@@ -1015,7 +963,7 @@ footer .texto4Footer {
         justify-content: space-between;
         margin-right: 21.5%;
         margin-left: 10%;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
     }
 
     .estatisticas .titulosEst {
@@ -1026,6 +974,10 @@ footer .texto4Footer {
     .estatisticas .textoEst {
         font-size: 15px;
         font-weight: 500;
+    }
+
+    .pagina-3 .imgEmpresas {
+        width: 40%;
     }
 
     .pagina-4 .imagemPg4 {
@@ -1045,7 +997,7 @@ footer .texto4Footer {
 
     .expertTeam {
         background-color: #E7FFD8;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         color: #24AA4A;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -1059,9 +1011,169 @@ footer .texto4Footer {
         font-weight: bold;
     }
 
+    .amanzingAnalisys {
+        background-color: #E7FFD8;
+        font-family: var(--fontDm);
+        color: #24AA4A;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 12px;
+        border-radius: 20px;
+        margin-right: 79.5%;
+        margin-left: 7%;
+        margin-bottom: 2em;
+        margin-top: 28em;
+        font-size: 7.5px;
+        font-weight: bold;
+    }
+
+    .pagina-5 .learnMoreArea {
+        border: #EDEDED, 1px, solid;
+        border-radius: 60px;
+        margin-top: 8%;
+        margin-left: 7%;
+        margin-right: 45%;
+        padding: 15px 0 15px 20px;
+        display: flex;
+        font-size: 11.5px;
+        font-weight: bold;
+        font-family: var(--fontInt);
+        color: #31543B;
+        align-items: center;
+        gap: 17px;
+        justify-content: center;
+        max-width: 152px;
+        max-height: 20px;
+    }
+
+    .pagina-5 .setaLearnMore {
+        padding-right: 15%;
+    }
+
+    .pagina-5 .learnMoreArea2 {
+        border: #EDEDED, 1px, solid;
+        border-radius: 60px;
+        margin-top: 8%;
+        margin-left: 7%;
+        margin-right: 45%;
+        padding: 15px 0 15px 20px;
+        display: flex;
+        font-size: 11.5px;
+        font-weight: bold;
+        font-family: var(--fontInt);
+        color: #31543B;
+        align-items: center;
+        gap: 17px;
+        justify-content: center;
+        max-width: 152px;
+        max-height: 20px;
+    }
+
+    .pagina-5 .setaLearnMore2 {
+        padding-right: 15%;
+    }
+
+    .pagina-6 .tituloPg6 {
+        font-size: 38px;
+        font-weight: bold;
+        font-family: var(--fontDm);
+        margin-bottom: 7%;
+        margin-right: 7%;
+        margin-left: 7%;
+        margin-top: 20%;
+        color: #000000;
+    }
+
+    .pagina-7 {
+        background-color: #243D31;
+        padding-top: 18%;
+        padding-bottom: 18%;
+    }
+
+    .imagensPg7 {
+        display: flex;
+    }
+
+    .pagina-7 .imagem1Pg7 {
+        text-align: center;
+        padding-left: 0%;
+        margin-left: 10%;
+        position: relative;
+        padding-bottom: 6%;
+    }
+
+    .imagemPg7 {
+        width: 260px !important;
+        margin-top: 5%;
+    }
+
+    .pagina-7 .areaDeTextoPg7 {
+        background-color: #ffffff;
+        position: absolute;
+        top: 44%;
+        left: 5%;
+        font-size: 18px;
+        font-family: var(--fontInt);
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 1.5em;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 3em;
+        margin-right: 4%;
+        border-radius: 12px;
+    }
+
+    .pagina-7 .imagem2Pg7 {
+        text-align: center;
+        padding-left: 2%;
+        position: relative;
+        padding-bottom: 6%;
+    }
+
+    .pagina-7 .areaDeTexto2Pg7 {
+        background-color: #ffffff;
+        position: absolute;
+        top: 44%;
+        left: 10%;
+        font-size: 18px;
+        font-family: var(--fontInt);
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 1.5em;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 1.5em;
+        margin-right: 4%;
+        border-radius: 12px;
+    }
+
+    .pagina-7 .imagem3Pg7 {
+        text-align: center;
+        padding-left: 2%;
+        position: relative;
+    }
+
+    .pagina-7 .areaDeTexto3Pg7 {
+        background-color: #ffffff;
+        position: absolute;
+        top: 44%;
+        left: 10%;
+        font-size: 18px;
+        font-family: var(--fontInt);
+        font-weight: 600;
+        text-align: left;
+        padding-bottom: 1.5em;
+        padding-top: 1em;
+        padding-left: 1em;
+        padding-right: 3em;
+        margin-right: 4%;
+        border-radius: 12px;
+    }
+
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1300px) {
 
     .logo {
         margin-left: 7%;
@@ -1070,7 +1182,7 @@ footer .texto4Footer {
 
     .signArea {
         background-color: #31543B;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: bold;
         color: #ffffff;
         align-items: center;
@@ -1092,7 +1204,7 @@ footer .texto4Footer {
         justify-content: space-between;
         margin-right: 48%;
         gap: 25%;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 300;
     }
 
@@ -1115,14 +1227,14 @@ footer .texto4Footer {
 
     .pagina-1 .tituloPg1 {
         font-size: 4em;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         font-weight: 900;
         margin: 0% 20% 0% 20%;
     }
 
     .pagina-1 .textoPg1 {
         font-size: 1em;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 400;
         color: #757B8A;
         margin-bottom: 5%;
@@ -1133,7 +1245,7 @@ footer .texto4Footer {
 
     .pagina-1 .textoPg1 {
         font-size: 1em;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 400;
         color: #757B8A;
         margin: 2% 35% 2% 35%;
@@ -1185,7 +1297,7 @@ footer .texto4Footer {
 
     .productOverview {
         background-color: #E7FFD8;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         color: #24AA4A;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -1206,7 +1318,7 @@ footer .texto4Footer {
     .pagina-2 .tituloPg2 {
         font-size: 60px;
         font-weight: bold;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         margin-bottom: 5%;
         margin-right: 1%;
         margin-left: 16.8%;
@@ -1217,7 +1329,7 @@ footer .texto4Footer {
     .pagina-2 .textoPg2 {
         font-size: 15px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #E6E9ED;
         margin-top: 4.8%;
         margin-bottom: 5%;
@@ -1235,7 +1347,7 @@ footer .texto4Footer {
         justify-content: space-between;
         margin-right: 21.5%;
         margin-left: 16.8%;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
     }
 
     .estatisticas .titulosEst {
@@ -1286,7 +1398,7 @@ footer .texto4Footer {
 
     .expertTeam {
         background-color: #E7FFD8;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         color: #24AA4A;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -1303,7 +1415,7 @@ footer .texto4Footer {
     .pagina-4 .tituloPg4 {
         font-size: 40px;
         font-weight: bold;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         word-spacing: 1px;
         margin-bottom: 3%;
         margin-right: 15%;
@@ -1315,7 +1427,7 @@ footer .texto4Footer {
     .pagina-4 .textoPg4 {
         font-size: 18px;
         font-weight: 500;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #101010;
         margin-bottom: 3%;
         margin-right: 15%;
@@ -1326,7 +1438,7 @@ footer .texto4Footer {
     .pagina-4 .texto2Pg4 {
         font-size: 16px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #757B8A;
         margin-bottom: 5%;
         margin-right: 23%;
@@ -1352,7 +1464,7 @@ footer .texto4Footer {
 
     .amanzingAnalisys {
         background-color: #E7FFD8;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         color: #24AA4A;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -1369,7 +1481,7 @@ footer .texto4Footer {
     .pagina-5 .tituloPg5 {
         font-size: 40px;
         font-weight: bold;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         margin-bottom: 4%;
         margin-right: 20%;
         margin-left: 7%;
@@ -1380,7 +1492,7 @@ footer .texto4Footer {
     .pagina-5 .textoPg5 {
         font-size: 16px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #757B8A;
         margin-bottom: 2%;
         margin-right: 15%;
@@ -1399,7 +1511,7 @@ footer .texto4Footer {
     }
 
     .pagina-5 .textoImagemPg5 {
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         font-weight: bold;
         font-size: 32px;
         margin-left: 6.5%;
@@ -1409,20 +1521,22 @@ footer .texto4Footer {
     }
 
     .pagina-5 .learnMoreArea {
+        border: #EDEDED, 1px, solid;
         border-radius: 60px;
-        margin-top: 7.2%;
-        margin-left: 6.5%;
-        margin-right: 65%;
-        padding-left: 4%;
-        padding-top: 3%;
-        padding-bottom: 3%;
+        margin-top: 8%;
+        margin-left: 7%;
+        margin-right: 45%;
+        padding: 15px 0 15px 20px;
         display: flex;
         font-size: 11.5px;
         font-weight: bold;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #31543B;
         align-items: center;
-        justify-content: space-between;
+        gap: 17px;
+        justify-content: center;
+        max-width: 152px;
+        max-height: 20px;
     }
 
     .pagina-5 .setaLearnMore {
@@ -1434,17 +1548,18 @@ footer .texto4Footer {
         border-radius: 60px;
         margin-top: 8%;
         margin-left: 0%;
-        margin-right: 69%;
-        padding-left: 4%;
-        padding-top: 4%;
-        padding-bottom: 4%;
+        margin-right: 45%;
+        padding: 15px 0 15px 20px;
         display: flex;
         font-size: 11.5px;
         font-weight: bold;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #31543B;
         align-items: center;
-        justify-content: space-between;
+        gap: 17px;
+        justify-content: center;
+        max-width: 152px;
+        max-height: 20px;
     }
 
     .pagina-5 .setaLearnMore2 {
@@ -1452,7 +1567,7 @@ footer .texto4Footer {
     }
 
     .pagina-5 .imagemInflowPg5 {
-        margin-top: 35.5%;
+        margin-top: 15.2em;
         margin-right: 20%;
         width: 560px;
         height: 850px;
@@ -1464,7 +1579,7 @@ footer .texto4Footer {
     }
 
     .pagina-5 .textoImagemInflowPg5 {
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         font-weight: bold;
         font-size: 32px;
         margin-left: 0%;
@@ -1484,7 +1599,7 @@ footer .texto4Footer {
     .pagina-6 .tituloPg6 {
         font-size: 34px;
         font-weight: bold;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         margin-bottom: 2%;
         margin-right: 17%;
         margin-left: 6.5%;
@@ -1496,7 +1611,7 @@ footer .texto4Footer {
     .pagina-6 .textoPg6 {
         font-size: 16.3px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #757B8A;
         margin-bottom: 2%;
         margin-right: 14%;
@@ -1529,7 +1644,7 @@ footer .texto4Footer {
     .pagina-7 .textoPg7 {
         font-size: 16.3px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #D6D6D6;
         margin-bottom: 5%;
         margin-right: 10%;
@@ -1559,8 +1674,8 @@ footer .texto4Footer {
         position: absolute;
         top: 55%;
         left: 5%;
-        font-weight: 18px;
-        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-family: var(--fontInt);
         font-weight: 600;
         text-align: left;
         padding-bottom: 1.5em;
@@ -1583,8 +1698,8 @@ footer .texto4Footer {
         position: absolute;
         top: 55%;
         left: 10%;
-        font-weight: 18px;
-        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-family: var(--fontInt);
         font-weight: 600;
         text-align: left;
         padding-bottom: 1.5em;
@@ -1607,8 +1722,8 @@ footer .texto4Footer {
         position: absolute;
         top: 55%;
         left: 10%;
-        font-weight: 18px;
-        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-family: var(--fontInt);
         font-weight: 600;
         text-align: left;
         padding-bottom: 1.5em;
@@ -1669,7 +1784,7 @@ footer .texto4Footer {
     .pagina-8 .textoBoldPg8 {
         font-size: 24px;
         font-weight: bold;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #101010;
         margin-bottom: 4%;
         margin-right: 5%;
@@ -1680,7 +1795,7 @@ footer .texto4Footer {
     .pagina-8 .nomeBoldPg8 {
         font-size: 18px;
         font-weight: bold;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #101010;
         margin-bottom: 3%;
         margin-right: 5%;
@@ -1691,7 +1806,7 @@ footer .texto4Footer {
     .pagina-8 .descricaoNomePg8 {
         font-size: 16px;
         font-weight: 300;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #757B8A;
         margin-bottom: 0%;
         margin-right: 5%;
@@ -1710,7 +1825,7 @@ footer .texto4Footer {
     .pagina-8 .tituloNotasPg8 {
         font-size: 40px;
         font-weight: bold;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
         margin-bottom: 3.5%;
         margin-right: 7%;
         margin-left: 26%;
@@ -1721,7 +1836,7 @@ footer .texto4Footer {
     .pagina-8 .textoNotasPg8 {
         font-size: 17px;
         font-weight: 400;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         color: #757B8A;
         margin-bottom: 5%;
         margin-right: 5%;
@@ -1738,7 +1853,7 @@ footer .texto4Footer {
         margin-right: 12.7%;
         margin-left: 7%;
         margin-bottom: 13%;
-        font-family: 'DM Sans', sans-serif;
+        font-family: var(--fontDm);
     }
 
     .pagina-8 .primeiraNota {
@@ -1783,7 +1898,7 @@ footer .texto4Footer {
 
     footer .readyFooter {
         text-align: center;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 400;
         font-size: 16px;
         padding-bottom: 0%;
@@ -1791,7 +1906,7 @@ footer .texto4Footer {
 
     footer .getStartedButton {
         background-color: #31543B;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-size: 16px;
         font-weight: bold;
         color: #F9F9FB;
@@ -1830,7 +1945,7 @@ footer .texto4Footer {
     }
 
     footer .subscribeTexto {
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-size: 24px;
         font-weight: bold;
         text-align: left;
@@ -1841,7 +1956,7 @@ footer .texto4Footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 500;
         margin: 0% 5% 0% 7%;
     }
@@ -1853,7 +1968,7 @@ footer .texto4Footer {
 
     footer .emailAddresArea .setinha {
         background-color: #31543B;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-size: 16px;
         font-weight: 400;
         color: #F9F9FB;
@@ -1886,14 +2001,14 @@ footer .texto4Footer {
     }
 
     footer .tituloTextoFooter {
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: bold;
         font-size: 18px;
         padding-bottom: 30px;
     }
 
     footer .informacoesTextoFooter {
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: 400;
         font-size: 16px;
         color: #33353E;
@@ -1903,7 +2018,7 @@ footer .texto4Footer {
     footer .textoFooter {
         display: flex;
         justify-content: space-between;
-        font-family: 'Inter', sans-serif;
+        font-family: var(--fontInt);
         font-weight: lighter;
         font-size: 16px;
         color: #33353E;

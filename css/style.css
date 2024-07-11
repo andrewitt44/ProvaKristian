@@ -229,11 +229,9 @@
     background-color: #E7FFD8;
     font-family: var(--fontDm);
     color: #24AA4A;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 10px;
+    padding: 0.47rem 0 0.47rem 0.63rem;
+    margin: 9rem 13.054rem 2rem 1.64rem;
     border-radius: 20px;
-    margin: 9em 13.054rem 2rem 1.64rem;
     font-size: 7.5px;
     font-weight: bold;
     max-width: 130px;
@@ -243,10 +241,7 @@
     font-size: 38px;
     font-weight: bold;
     font-family: var(--fontDm);
-    margin-bottom: 10%;
-    margin-right: 10%;
-    margin-left: 7%;
-    margin-top: 0;
+    margin: 0 2.344rem 2.344rem 1.64rem;
     color: #000000;
 }
 
@@ -255,9 +250,7 @@
     font-weight: 500;
     font-family: var(--fontInt);
     color: #101010;
-    margin-bottom: 5%;
-    margin-right: 1%;
-    margin-left: 7%;
+    margin: 0 0.2344rem 1.172rem 1.64rem;
     line-height: 1.5em;
 }
 
@@ -266,9 +259,7 @@
     font-weight: 500;
     font-family: var(--fontInt);
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
+    margin: 0 1.172rem 1.172rem 1.64rem;
     line-height: 1.6em;
 }
 
@@ -276,14 +267,9 @@
     background-color: #E7FFD8;
     font-family: var(--fontDm);
     color: #24AA4A;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 10px;
+    padding: 0.47rem 0 0.47rem 0.63rem;
     border-radius: 20px;
-    margin-right: 59%;
-    margin-left: 7%;
-    margin-bottom: 2em;
-    margin-top: 13em;
+    margin: 6.094rem 13.83rem 0.938rem 1.64rem;
     font-size: 7.5px;
     font-weight: bold;
     max-width: 120px;
@@ -293,10 +279,7 @@
     font-size: 40px;
     font-weight: bold;
     font-family: var(--fontDm);
-    margin-bottom: 4%;
-    margin-right: 20%;
-    margin-left: 7%;
-    margin-top: 0;
+    margin: 0 4.69rem 0.938rem 1.64rem;
     color: #000000;
 }
 
@@ -305,36 +288,34 @@
     font-weight: 400;
     font-family: var(--fontInt);
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
+    margin: 0 4.69rem 0.938rem 1.64rem;
     line-height: 1.6em;
 }
 
 .pagina-5 .imagemKcal {
-    text-align: center;
-    padding-top: 5%;
+    text-align: start;
+    padding-top: 1.47rem;
+    margin-left: 1.64rem;
 }
 
 .pagina-5 .imagemKcalPg5 {
-    width: 87.5%;
+    width: 328px;
+
 }
 
 .pagina-5 .textoImagemPg5 {
     font-family: var(--fontDm);
     font-weight: bold;
     font-size: 24px;
-    margin-left: 6.5%;
-    margin-top: 4%;
+    margin-left: 1.64rem;
+    margin-top: 0.987rem;
     text-align: left;
 }
 
 .pagina-5 .learnMoreArea {
     border: #EDEDED, 1px, solid;
     border-radius: 60px;
-    margin-top: 8%;
-    margin-left: 7%;
-    margin-right: 45%;
+    margin: 2.105rem 10.9rem 0 1.64rem;
     padding: 15px 0 15px 20px;
     display: flex;
     font-size: 11.5px;
@@ -355,9 +336,7 @@
 .pagina-5 .learnMoreArea2 {
     border: #EDEDED, 1px, solid;
     border-radius: 60px;
-    margin-top: 8%;
-    margin-left: 7%;
-    margin-right: 45%;
+    margin: 2.105rem 10.9rem 0 1.64rem;
     padding: 15px 0 15px 20px;
     display: flex;
     font-size: 11.5px;
@@ -377,20 +356,21 @@
 }
 
 .pagina-5 .imagemInflow {
-    text-align: center;
+    text-align: start;
     padding-top: 11%;
 }
 
 .pagina-5 .imagemInflowPg5 {
-    width: 88%;
+    width: 328px;
+    margin-left: 1.64rem;
 }
 
 .pagina-5 .textoImagemInflowPg5 {
     font-family: var(--fontDm);
     font-weight: bold;
     font-size: 24px;
-    margin-left: 6.5%;
-    margin-top: 4%;
+    margin-left: 1.64rem;
+    margin-top: 1.2rem;
     text-align: left;
 }
 
@@ -398,10 +378,7 @@
     font-size: 38px;
     font-weight: bold;
     font-family: var(--fontDm);
-    margin-bottom: 7%;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 25%;
+    margin: 7.67rem 2.147rem 2.147rem 2.147rem;
     color: #000000;
 }
 
@@ -410,9 +387,7 @@
     font-weight: 400;
     font-family: var(--fontInt);
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
+    margin: 0 1.59rem .159rem 2.147rem;
     line-height: 1.7em;
 }
 
@@ -441,18 +416,15 @@
 
 .pagina-7 {
     background-color: #243D31;
-    padding-top: 22%;
-    padding-bottom: 24%;
+    padding-top: 5.157rem;
+    padding-bottom: 5.63rem;
 }
 
 .pagina-7 .tituloPg7 {
     font-size: 40px;
     font-weight: bold;
     font-family: var(--fontJak);
-    margin-bottom: 5%;
-    margin-right: 20%;
-    margin-left: 10%;
-    margin-top: 0;
+    margin: 0 4.69rem 1.17rem 2.344rem;
     color: #ffffff;
 }
 
@@ -461,17 +433,15 @@
     font-weight: 400;
     font-family: var(--fontInt);
     color: #D6D6D6;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 10%;
+    margin: 0 1.17rem 1.17rem 2.344rem;
     line-height: 1.7em;
 }
 
 .pagina-7 .imagem1Pg7 {
     text-align: center;
-    padding-left: 2%;
+    padding-left: 0.47rem;
     position: relative;
-    padding-bottom: 6%;
+    padding-bottom: 1.406rem;
 }
 
 .pagina-7 .areaDeTextoPg7 {
@@ -493,9 +463,9 @@
 
 .pagina-7 .imagem2Pg7 {
     text-align: center;
-    padding-left: 2%;
+    padding-left: 0.47rem;
     position: relative;
-    padding-bottom: 6%;
+    padding-bottom: 1.406rem;
 }
 
 .pagina-7 .areaDeTexto2Pg7 {
@@ -507,19 +477,15 @@
     font-family: var(--fontInt);
     font-weight: 600;
     text-align: left;
-    padding-bottom: 1.5em;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em 1em 1.5em 1em;
     margin-right: 10%;
     border-radius: 12px;
 }
 
 .pagina-7 .imagem3Pg7 {
     text-align: center;
-    padding-left: 2%;
+    padding-left: 0.47rem;
     position: relative;
-
 }
 
 .pagina-7 .areaDeTexto3Pg7 {
@@ -531,10 +497,7 @@
     font-family: var(--fontInt);
     font-weight: 600;
     text-align: left;
-    padding-bottom: 1.5em;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 1em 1em 1.5em 1em;
     margin-right: 10%;
     border-radius: 12px;
 }
@@ -623,10 +586,7 @@
     font-size: 40px;
     font-weight: bold;
     font-family: var(--fontDm);
-    margin-bottom: 7%;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 18%;
+    margin: 4.22rem 1.64rem 1.64rem 1.64rem;
     color: #000000;
 }
 
@@ -635,14 +595,13 @@
     font-weight: 400;
     font-family: var(--fontInt);
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
+    margin: 0 1.172rem 1.172rem 1.64rem;
     line-height: 1.7em;
 }
 
 .pagina-8 .imagemPg8 {
-    text-align: center;
+    text-align: start;
+    margin-left: 1.64rem;
 }
 
 .pagina-8 .imagemPg8Pc {
@@ -650,7 +609,7 @@
 }
 
 .pagina-8 .aspasPg8 {
-    margin-top: 1.3em;
+    margin-top: 1.3rem;
     margin-left: 7%;
 }
 
@@ -659,10 +618,7 @@
     font-weight: bold;
     font-family: var(--fontInt);
     color: #101010;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
-    margin-top: 4%;
+    margin: 0.94rem 1.172rem 1.172rem 1.64rem;
 }
 
 .pagina-8 .nomeBoldPg8 {
@@ -670,10 +626,7 @@
     font-weight: bold;
     font-family: var(--fontInt);
     color: #101010;
-    margin-bottom: 3%;
-    margin-right: 5%;
-    margin-left: 7%;
-    margin-top: 8%;
+    margin: 1.88rem 1.172rem 1.172rem 1.64rem;
 }
 
 .pagina-8 .descricaoNomePg8 {
@@ -681,24 +634,19 @@
     font-weight: 300;
     font-family: var(--fontInt);
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
+    margin: 0 1.172rem 1.172rem 1.64rem;
 }
 
 .pagina-8 .circulosPg8 {
-    margin-left: 7%;
-    margin-top: 15%;
+    margin-left: 1.64rem;
+    margin-top: 3.515rem;
 }
 
 .pagina-8 .tituloNotasPg8 {
     font-size: 36px;
     font-weight: bold;
     font-family: var(--fontDm);
-    margin-bottom: 7%;
-    margin-right: 7%;
-    margin-left: 7%;
-    margin-top: 18%;
+    margin: 4.22rem 1.64rem 1.64rem 1.64rem;
     color: #000000;
 }
 
@@ -707,9 +655,7 @@
     font-weight: 400;
     font-family: var(--fontInt);
     color: #757B8A;
-    margin-bottom: 5%;
-    margin-right: 5%;
-    margin-left: 7%;
+    margin: 0 1.172rem 1.172rem 1.64rem;
     line-height: 1.7em;
 }
 
@@ -719,9 +665,7 @@
     display: flex;
     text-align: left;
     justify-content: space-between;
-    margin-right: 12.7%;
-    margin-left: 7%;
-    margin-bottom: 20%;
+    margin: 0 2.977rem 4.69rem 1.64rem;
     font-family: var(--fontDm);
 }
 
@@ -737,14 +681,14 @@
 
 footer {
     background-image: url(/css/Images/backgroundFooter.png);
-    padding-top: 15%;
+    padding-top: 3.516rem;
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 footer .logoFooter {
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 1.172rem;
 }
 
 footer .readyFooter {
@@ -752,7 +696,7 @@ footer .readyFooter {
     font-family: var(--fontInt);
     font-weight: 500;
     font-size: 16px;
-    padding-bottom: 5%;
+    padding-bottom: 1.172rem;
 }
 
 footer .getStartedButton {
@@ -762,11 +706,9 @@ footer .getStartedButton {
     font-weight: bold;
     color: #F9F9FB;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    margin-left: 28%;
-    margin-right: 27%;
-    margin-bottom: 24%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 27%  5.63rem 28%;
     border-radius: 8px;
 }
 
@@ -775,7 +717,7 @@ footer .subscribeTexto {
     font-size: 24px;
     font-weight: bold;
     text-align: left;
-    margin: 0% 20% 10% 7%;
+    margin: 0 4.69rem 2.34rem 1.64rem;
 }
 
 footer .emailAddresArea {
@@ -798,13 +740,13 @@ footer .emailAddresArea .setinha {
     font-weight: 400;
     color: #F9F9FB;
     text-align: center;
-    padding: 1em 1.3em 1em 1.3em;
+    padding: 1rem 1.3rem 1rem 1.3rem;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 
 footer hr {
-    margin: 0% 5% 0% 7%;
+    margin: 0 1.172rem 0% 1.64rem;
     border: solid 0.001em #E2E4EB;
 }
 
@@ -835,7 +777,7 @@ footer .texto4Footer {
     font-weight: 300;
     font-size: 16px;
     color: #33353E;
-    margin: 17% 10% 0% 6%;
+    margin: 5.24rem 3.08rem 0 1.848rem;
 }
 
 .redesFooter {
@@ -915,16 +857,12 @@ footer .texto4Footer {
         background-color: #E7FFD8;
         font-family: var(--fontDm);
         color: #24AA4A;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 1.5%;
+        padding: 0.47rem 0rem 0.47rem 0.63rem;
         border-radius: 20px;
-        margin-right: 72.3%;
-        margin-left: 10%;
-        margin-bottom: 2em;
-        margin-top: 1em;
+        margin: 0.563rem 46.226rem 1.13rem 10%;
         font-size: 9px;
         font-weight: bold;
+        max-width: 146px;
     }
 
     .textoETitulo {
@@ -999,34 +937,30 @@ footer .texto4Footer {
         background-color: #E7FFD8;
         font-family: var(--fontDm);
         color: #24AA4A;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 10px;
+        padding: 0.47rem 0 0.47rem 0.63rem;
+        margin: 9rem 13.054rem 2rem 1.64rem;
         border-radius: 20px;
-        margin-right: 79%;
-        margin-left: 7%;
-        margin-bottom: 2em;
-        margin-top: 5.5em;
         font-size: 7.5px;
         font-weight: bold;
+        max-width: 130px;
     }
 
     .amanzingAnalisys {
         background-color: #E7FFD8;
         font-family: var(--fontDm);
         color: #24AA4A;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 12px;
+        padding: 0.47rem 0 0.47rem 0.63rem;
         border-radius: 20px;
-        margin-right: 79.5%;
-        margin-left: 7%;
-        margin-bottom: 2em;
-        margin-top: 28em;
+        margin: 6.094rem 13.83rem 0.938rem 1.64rem;
         font-size: 7.5px;
         font-weight: bold;
+        max-width: 120px;
     }
 
+    .pagina-5 {
+        display: flex;
+    }
+    
     .pagina-5 .learnMoreArea {
         border: #EDEDED, 1px, solid;
         border-radius: 60px;
@@ -1299,14 +1233,9 @@ footer .texto4Footer {
         background-color: #E7FFD8;
         font-family: var(--fontDm);
         color: #24AA4A;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 10px;
+        padding: 0.47rem 0rem 0.47rem 0.63rem;
         border-radius: 20px;
-        margin-right: 72.3%;
-        margin-left: 16.8%;
-        margin-bottom: 2em;
-        margin-top: 1em;
+        margin: 0.563rem 46.226rem 1.13rem 17%;
         font-size: 9px;
         font-weight: bold;
     }
@@ -1404,12 +1333,13 @@ footer .texto4Footer {
         padding-bottom: 1em;
         padding-left: 10px;
         border-radius: 20px;
-        margin-right: 72%;
+        margin-right: 68%;
         margin-left: 7%;
         margin-bottom: 2em;
         margin-top: 5.5em;
         font-size: 7.5px;
         font-weight: bold;
+        max-width: 128px;
     }
 
     .pagina-4 .tituloPg4 {
@@ -1470,12 +1400,13 @@ footer .texto4Footer {
         padding-bottom: 1em;
         padding-left: 12px;
         border-radius: 20px;
-        margin-right: 72.5%;
+        margin-right: 66%;
         margin-left: 7%;
         margin-bottom: 2em;
         margin-top: 28em;
         font-size: 8.5px;
         font-weight: bold;
+        max-width: 130px;
     }
 
     .pagina-5 .tituloPg5 {
@@ -1501,7 +1432,7 @@ footer .texto4Footer {
     }
 
     .pagina-5 .imagemKcalPg5 {
-        padding-top: 2%;
+        padding-top: 1.7rem;
         width: 560px;
     }
 
@@ -1547,7 +1478,7 @@ footer .texto4Footer {
         border: #EDEDED, 1px, solid;
         border-radius: 60px;
         margin-top: 8%;
-        margin-left: 0%;
+        margin-left: 2.7rem;
         margin-right: 45%;
         padding: 15px 0 15px 20px;
         display: flex;
@@ -1567,8 +1498,8 @@ footer .texto4Footer {
     }
 
     .pagina-5 .imagemInflowPg5 {
-        margin-top: 15.2em;
-        margin-right: 20%;
+        margin-top: 13.9rem;
+        margin-right: 1.64rem;
         width: 560px;
         height: 850px;
     }
@@ -1582,8 +1513,8 @@ footer .texto4Footer {
         font-family: var(--fontDm);
         font-weight: bold;
         font-size: 32px;
-        margin-left: 0%;
-        margin-right: 15%;
+        margin-left: 2.7rem;
+        margin-right: 1.675rem;
         margin-top: 4%;
         text-align: left;
     }
@@ -1740,9 +1671,9 @@ footer .texto4Footer {
     }
 
     .pagina-8 .tituloPg8 {
-        margin-top: 10%;
-        margin-right: 24%;
-        padding-left: 3%;
+        margin-top: 9rem;
+        margin-right:21.5rem;
+        padding-left: 2.699rem;
         width: 900px;
     }
 
@@ -1758,7 +1689,7 @@ footer .texto4Footer {
     }
 
     .pagina-8 .imagemPg8 {
-        margin-left: 14.5%;
+        margin-left: 4.5rem;
     }
 
     .pagina-8 .imagemPg8Pc {
